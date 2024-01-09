@@ -1,0 +1,127 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #5B5B5B;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Montserrat', sans-serif;
+  color: #ffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 5px;
+}
+#nav-list a {
+  color: #fffff;
+}
+#nav-list a:hover {
+  background: #ff5e00;
+}
+#nav-list a span {
+  font-size: 2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 0px;
+}
+
+/* END HEADER */
+
+h2 {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+}
+
+div#container {
+  background-color: gray;
+  margin: 30px;
+  color: black;
+}
+
+section {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 125%;
+  padding: 10px 0px 0px 0px;
+}
+
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  background-color: gray;
+  color: black;
+  border: 0px solid black;
+  margin: 0px;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+
+ }
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  /* End Header */
+}
+
+/* Home Page */
+  .container .jumbotron {
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+   height: 432px;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
